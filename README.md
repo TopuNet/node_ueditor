@@ -21,13 +21,21 @@
 		<script type="text/javascript" charset="utf-8" src="/ueditor/ueditor.all.min.js"> </script>
 		<script type="text/javascript" charset="utf-8" src="/ueditor/lang/zh-cn/zh-cn.js"> </script>
 	2. 在想让编辑器出现的位置引用：
-		<script id="container" name="content" type="text/plain">
-        	在这里给编辑器赋初值
+		<script id="ue_id" name="ue_name" type="text/plain">
+        	在这里给编辑器赋初值。比如：<%=Ainfo%>
     	</script>
     3. 实例化编辑器：
     	<script type="text/javascript">
-        var ue = UE.getEditor('container');
+        var ue = UE.getEditor('ue_id');
     	</script>
+    4. 客户端获取编辑器内容（不是必需）：
+    	<script type="text/javascript">
+        ue.getContent();
+    	</script>
+    5. 服务器端获取表单编辑器内容（.net为例）：
+    	<%
+    		Request.Form["ue_name"];
+    	%>
 
 参考引用：
 --------------
