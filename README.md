@@ -3,7 +3,7 @@
 
 文件结构：
 -------------
-	1. /node_modules/ueditor/ 放入项目node_modules中
+	1. /node_modules/ueditor.zip解压后的ueditor文件夹放入项目node_modules中
 	2. /ueditor/ 放入项目根目录中
 	3. /routes/ueditor.js 放入项目/routes/中
 
