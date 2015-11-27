@@ -1,4 +1,4 @@
-# node_ueditor v1.0.1
+# node_ueditor v1.0.1s
 ###node环境下的ueditor包
 
 文件结构：
