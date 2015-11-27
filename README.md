@@ -32,10 +32,10 @@
     	<script type="text/javascript">
         ue.getContent();
     	</script>
-    5. 服务器端获取表单编辑器内容（.net为例）：
-    	<%
-    		Request.Form["ue_name"];
-    	%>
+    5. 服务器端获取表单编辑器内容（node为例）：
+    	routes.post("/",function(req,res,next){
+    		req.body["ue_name"];
+    	});
 
 参考引用：
 --------------
