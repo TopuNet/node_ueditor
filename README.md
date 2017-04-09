@@ -1,5 +1,5 @@
 # node_ueditor v1.0.2
-###node环境下的ueditor包
+### node环境下的ueditor包
 
 文件结构：
 -------------
